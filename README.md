@@ -1,6 +1,6 @@
 # LokaPreneur
 
-Website UMKM berbasis Laravel 12
+Platform Digital untuk UMKM Lokal
 
 ## Tampilan Website
 
