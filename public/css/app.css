@@ -1,0 +1,87 @@
+:root {
+    --primary: #2ba4cb;
+    --secondary: #234992;
+    --neutral: #d3d3d3;
+    --bg: #f7f9fc;
+}
+
+/* GLOBAL */
+body {
+    background-color: var(--bg);
+    font-family: "Inter", "Segoe UI", sans-serif;
+    color: #333;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background: linear-gradient(180deg, var(--secondary), #1b376f);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    color: #dce9f5;
+    text-decoration: none;
+    display: block;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* CARD */
+.card {
+    border-radius: 14px;
+    border: none;
+}
+
+/* BUTTON */
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2490b3;
+}
+
+.btn-success {
+    background-color: var(--secondary);
+    border: none;
+}
+
+/* FORM */
+.form-control,
+select {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* TABLE */
+.table {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* HEADER */
+.page-title {
+    font-weight: 600;
+    color: var(--secondary);
+}
